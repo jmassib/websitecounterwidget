@@ -1,70 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Counter Widget</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f4f4f4;
-            margin: 0;
-        }
-        
-        .counter-widget {
-            display: flex;
-            justify-content: space-around;
-            width: 80%;
-            background-color: rgba(0, 0, 0, 0.7);
-            padding: 20px;
-            border-radius: 10px;
-        }
-        
-        .counter-item {
-            text-align: center;
-            color: white;
-        }
-        
-        .icon img {
-            width: 50px;
-            height: 50px;
-            margin-bottom: 10px;
-        }
-        
-        .number {
-            font-size: 36px;
-            font-weight: bold;
-        }
-        
-        .label {
-            font-size: 18px;
-        }
-    </style>
-</head>
-<body>
-    <div class="counter-widget">
-        <div class="counter-item">
-            <div class="icon"><img src="https://jmassib.github.io/websitecounterwidget/cinema.svg" alt="Project Icon"></div>
-            <div class="number" data-target="17">0</div>
-            <div class="label">Projetos</div>
+<div style="font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f4f4f4; margin: 0;">
+    <div style="display: flex; justify-content: space-around; width: 80%; background-color: rgba(0, 0, 0, 0.7); padding: 20px; border-radius: 10px;">
+        <div style="text-align: center; color: white;">
+            <div><img src="https://cdn.jsdelivr.net/gh/jmassib/websitecounterwidget@main/cinema.svg" alt="Project Icon" style="width: 50px; height: 50px; margin-bottom: 10px;"></div>
+            <div class="number" data-target="17" style="font-size: 36px; font-weight: bold;">0</div>
+            <div style="font-size: 18px;">Projetos</div>
         </div>
-        <div class="counter-item">
-            <div class="icon"><img src="https://jmassib.github.io/websitecounterwidget/briefcase.svg" alt="Incentivadores Icon"></div>
-            <div class="number" data-target="45">0</div>
-            <div class="label">Incentivadores</div>
+        <div style="text-align: center; color: white;">
+            <div><img src="https://cdn.jsdelivr.net/gh/jmassib/websitecounterwidget@main/briefcase.svg" alt="Incentivadores Icon" style="width: 50px; height: 50px; margin-bottom: 10px;"></div>
+            <div class="number" data-target="45" style="font-size: 36px; font-weight: bold;">0</div>
+            <div style="font-size: 18px;">Incentivadores</div>
         </div>
-        <div class="counter-item">
-            <div class="icon"><img src="https://jmassib.github.io/websitecounterwidget/dollar.svg" alt="Money Icon"></div>
-            <div class="number" data-target="6380000">0</div>
-            <div class="label">impostos direcionados</div>
+        <div style="text-align: center; color: white;">
+            <div><img src="https://cdn.jsdelivr.net/gh/jmassib/websitecounterwidget@main/dollar.svg" alt="Money Icon" style="width: 50px; height: 50px; margin-bottom: 10px;"></div>
+            <div class="number" data-target="6380000" style="font-size: 36px; font-weight: bold;">0</div>
+            <div style="font-size: 18px;">impostos direcionados</div>
         </div>
     </div>
     <script>
-        document.addEventListener("DOMContentLoaded", () => {
+        document.addEventListener("DOMContentLoaded", function() {
             const counters = document.querySelectorAll('.number');
             const speed = 200; // The lower the slower
 
@@ -91,5 +44,4 @@
             });
         });
     </script>
-</body>
-</html>
+</div>
