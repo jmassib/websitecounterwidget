@@ -48,17 +48,17 @@
 <body>
     <div class="counter-widget">
         <div class="counter-item">
-            <div class="icon"><img src="path-to-your-icon-project.png" alt="Project Icon"></div>
+            <div class="icon"><img src="cinema-film-svgrepo-com.svg" alt="Project Icon"></div>
             <div class="number" data-target="17">0</div>
             <div class="label">Projetos</div>
         </div>
         <div class="counter-item">
-            <div class="icon"><img src="path-to-your-icon-incentivadores.png" alt="Incentivadores Icon"></div>
+            <div class="icon"><img src="briefcase-svgrepo-com.svg" alt="Incentivadores Icon"></div>
             <div class="number" data-target="45">0</div>
             <div class="label">Incentivadores</div>
         </div>
         <div class="counter-item">
-            <div class="icon"><img src="path-to-your-icon-money.png" alt="Money Icon"></div>
+            <div class="icon"><img src="dollar-coin-svgrepo-com.svg" alt="Money Icon"></div>
             <div class="number" data-target="6380000">0</div>
             <div class="label">impostos direcionados</div>
         </div>
